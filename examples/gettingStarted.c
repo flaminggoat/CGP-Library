@@ -44,7 +44,7 @@ int main(void){
 
 	printParameters(params);
 
-	trainingData = initialiseDataSetFromFile("./dataSets/symbolic.data");
+	trainingData = initialiseDataSetFromFile("../dataSets/symbolic.data");
 
 	chromo = runCGP(params, trainingData, numGens);
 
